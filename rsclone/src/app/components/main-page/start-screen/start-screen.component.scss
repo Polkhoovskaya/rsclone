@@ -39,16 +39,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .start-screen__components{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+    app-theme-switcher {
       margin-top: 25%;
       margin-right: 7%;
       animation: theme-switcher 2s;
-      app-control-authentication {
-        margin-bottom: 40px;
-      }
     }
   }
 }
@@ -205,7 +199,7 @@
         }
       }
     }
-    .start-screen__components {
+    app-theme-switcher {
       margin: 0;
     }
   }
@@ -228,26 +222,5 @@
         }
       }
     }
-  }
-}
-
-@media screen and (max-height: 920px) {
-  .start-screen__logo {
-    max-width: 1100px;
-  }
-}
-@media screen and (max-height: 820px) {
-  .start-screen__logo {
-    max-width: 900px;
-  }
-}
-@media screen and (max-height: 720px) {
-  .start-screen__logo {
-    max-width: 750px;
-  }
-}
-@media screen and (max-height: 680px) {
-  .start-screen__logo {
-    max-width: 550px;
   }
 }

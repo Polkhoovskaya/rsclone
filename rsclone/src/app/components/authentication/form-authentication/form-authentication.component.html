@@ -1,4 +1,4 @@
-<div class="content-wrapper" [@form] *ngIf="isShowAuthenticationForm">
+<div class="content-wrapper" *ngIf="isShowAuthenticationForm">
   <div class="content" *ngIf="!isLogged; else successAuthentication">
     <div class="tabs">
       <input
@@ -73,13 +73,12 @@
 </div>
 <div
   class="overlay"
-  [@backdrop]
   *ngIf="isShowAuthenticationForm"
   (click)="onCloseAuthenticationForm()"
 ></div>
 
 <ng-template #successAuthentication>
-  <div class="info-success-auth" [@backdrop]>
+  <div class="info-success-auth">
     <p>{{ 'AUTHENTICATION.FORM.SUCCESS' | translate }}: {{ userEmail }}</p>
     <button (click)="onCloseAuthenticationForm()">OK</button>
   </div>
