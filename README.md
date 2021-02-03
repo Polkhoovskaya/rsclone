@@ -11,3 +11,16 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rsclone/rsclone
 https://www.figma.com/file/QhYzjgGvrhN9LlINOOI58n/GreenMapDesign?node-id=0%3A1
 
 # Скриншот результата выполнения задания
+
+# Ссылка на задеплоенную версию приложения
+
+# Дата сдачи / дата дедлайна
+02.02.21/03.02.21
+
+# Score: 320 / 320
+
+# Ссылка на статью
+
+# Cсылка на видео с обзором приложения на youtube
+
+# Описание фич
