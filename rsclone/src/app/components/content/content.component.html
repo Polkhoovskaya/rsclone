@@ -7,11 +7,10 @@
       navigate_next
     </i>
   </div>
-
 </div>
 <router-outlet id="second-screen"></router-outlet>
 <app-map
   id="map-screen"
-  (addNewObject)="firebaseService.setData($event)"s
+  (addNewObject)="firebaseService.setData($event)"
 ></app-map>
 <app-info id="info-screen"></app-info>
